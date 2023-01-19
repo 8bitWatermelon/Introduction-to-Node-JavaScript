@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<header>
+	<script src="alert.js"></script>
+</header>
+<html>
+	<body>
+		<h1>HTML Forms</h1>
+		<!--Form-->
+		<form action="response.html" target="_top" method="POST">
+			<!--target: _top, Method: Post, Action -->
+			<label for="fname">First name:</label><br />
+			<!-- Label -->
+			<input type="text" id="fname" name="fname" value="" /><br />
+			<!--input, Name-->
+			<label for="lname">Last name:</label><br />
+			<input type="text" id="lname" name="lname" value="" /><br /><br />
+			<!--Text Field-->
+			<input type="radio" id="male" name="gender" value="male" />
+			<!--Radio Buttons-->
+			<label for="male">Male</label><br />
+			<input type="radio" id="female" name="gender" value="female" />
+			<label for="female">Female</label><br />
+			<br />
+			<input type="submit" value="Submit" onclick="alertFunction()" />
+			<!--Submit Button-->
+		</form>
+	</body>
+</html>
