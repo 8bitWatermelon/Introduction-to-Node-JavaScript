@@ -4,19 +4,8 @@ const fileStream = require("fs");
 const host = "127.0.0.1";
 const port = 8080;
 
-const fileName = "mynewfile.html";
-let message =
-	"<!Doctype html>\n" +
-	'<html lang="en">\n' +
-	"<head>\n" +
-	"<title>Document</title>\n" +
-	"</head>\n" +
-	"<body>" +
-	"<h1>Hello Append</h1>\n" +
-	"<h2>Hello Append</h2>\n" +
-	"<h3>Hello Append</h3>\n" +
-	"</body>\n" +
-	"</html>";
+const fileName = "mynewfile1.txt";
+let message = "Hello World to Appendings!";
 
 fileStream.appendFile(fileName, message, function (err) {
 	if (err) throw err;
