@@ -1,0 +1,17 @@
+{
+    "name":"nodepackages",
+    "version":"1.0.0",
+    "description":"allows node js to run across all files in the project folder.",
+    "main":"*.js",
+    "type":"module",
+    "scripts":{
+        "test":"echo \"Error: no test specified\" && exit 1"
+        },
+    "keywords":[],
+    "author":"Enoabasi Essien",
+    "license":"ISC",
+    "dependencies":{
+        "formidable":"^2.1.1",
+        "upper-case":"^2.0.2"
+        }
+}
