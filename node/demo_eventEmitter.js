@@ -1,7 +1,7 @@
 const events = require("events");
-let eventEmitter = new events.EventEmitter();
+const eventEmitter = new events.EventEmitter();
 
-let myEventHandler = (event) => {
+let myEventHandler = () => {
 	console.log("I hear a scream!");
 };
 
